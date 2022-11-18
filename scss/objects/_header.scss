@@ -1,0 +1,12 @@
+.header {
+  background-color: var(--primary-dark-violet);
+  color: var(--neutral-white);
+  width: auto;
+}
+
+.header__image {
+  background-image: url("../../resources/image-intro-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+}

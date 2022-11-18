@@ -1,0 +1,36 @@
+@use "../utilities";
+
+.button {
+  border-style: solid;
+  border-width: medium;
+  cursor: pointer;
+  padding: 1rem 2rem 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition-duration: 0.4s;
+}
+
+.button--violet {
+  background-color: var(--primary-dark-violet);
+  border-color: var(--neutral-white);
+  color: var(--neutral-white);
+}
+
+.button--violet:hover {
+  background-color: var(--neutral-white);
+  border-color: var(--primary-dark-violet);
+  color: var(--primary-dark-violet);
+}
+
+.button--white {
+  background-color: var(--neutral-white);
+  border-color: var(--primary-dark-violet);
+  color: var(--primary-dark-violet);
+}
+
+.button--white:hover {
+  background-color: var(--primary-dark-violet);
+  border-color: var(--neutral-white);
+  color: var(--neutral-white);
+}

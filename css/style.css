@@ -1,0 +1,100 @@
+:root {
+  --primary-dark-violet: hsl(256, 26%, 20%);
+  --primary-grayish-blue: hsl(216, 30%, 68%);
+  --neutral-black: hsl(0, 0%, 0%);
+  --neutral-dark-grayish-violet: hsl(273, 4%, 51%);
+  --neutral-very-dark-violet: hsl(270, 9%, 17%);
+  --neutral-very-light-gray: hsl(0, 0%, 98%);
+  --neutral-white: hsl(0, 0%, 100%);
+  --font-family-dm-serif-display: "DM Serif Display", serif; /* Headings */
+  --font-family-karla: "Karla", sans-serif; /* Body */
+  --font-weight-400: 400;
+  --font-weight-700: 700;
+}
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.font--dm-serif-display {
+  font-family: var(--font-family-dm-serif-display); /* Headings */
+}
+
+.font--karla {
+  font-family: var(--font-family-karla); /* Body */
+}
+
+.font-size--1rem {
+  font-size: 1rem;
+}
+
+.font-weight--400 {
+  font-weight: var(--font-weight-400);
+}
+
+.font-weight--700 {
+  font-weight: var(--font-weight-700);
+}
+
+.layout {
+  margin-inline: auto;
+  max-width: 450px;
+  text-align: center;
+}
+
+.header {
+  background-color: var(--primary-dark-violet);
+  color: var(--neutral-white);
+  width: auto;
+}
+
+.header__image {
+  background-image: url("../../resources/image-intro-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+}
+
+.button {
+  border-style: solid;
+  border-width: medium;
+  cursor: pointer;
+  padding: 1rem 2rem 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition-duration: 0.4s;
+}
+
+.button--violet {
+  background-color: var(--primary-dark-violet);
+  border-color: var(--neutral-white);
+  color: var(--neutral-white);
+}
+
+.button--violet:hover {
+  background-color: var(--neutral-white);
+  border-color: var(--primary-dark-violet);
+  color: var(--primary-dark-violet);
+}
+
+.button--white {
+  background-color: var(--neutral-white);
+  border-color: var(--primary-dark-violet);
+  color: var(--primary-dark-violet);
+}
+
+.button--white:hover {
+  background-color: var(--primary-dark-violet);
+  border-color: var(--neutral-white);
+  color: var(--neutral-white);
+}/*# sourceMappingURL=style.css.map */
